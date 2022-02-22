@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83fe508ea52d0784aa0e6fde2c7fbb40, type: 3}
+  m_Name: Grass
+  m_EditorClassIdentifier: 
+  blockName: 3
+  flag: 1
+  siTrunk: 0
+  isLeave: 0
+  atlasPositions:
+  - {x: 2, y: 1}
+  - {x: 0, y: 1}
+  - {x: 1, y: 1}
+  - {x: 1, y: 1}
+  - {x: 1, y: 1}
+  - {x: 1, y: 1}
+  isTree: 0
+  isTransparent: 0
+  isPlant: 0
+  isBillboard: 0
+  affectedByGravity: 0
+  isSourceBlock: 0
+  isWater: 0
+  mustBeOnGrassBlock: 0
+  digClip: {fileID: 8300000, guid: ff0ebe91ce87144f38d074af58fc58d2, type: 3}
+  stepClips:
+  - {fileID: 8300000, guid: 59cd085e234f32e4daddd2e589174a96, type: 3}
+  - {fileID: 8300000, guid: 7a1ca87fc8b38af43bd269e557438cf3, type: 3}
+  breakParticleColors:
+    m_Mode: 4
+    m_GradientMin:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    m_GradientMax:
+      serializedVersion: 2
+      key0: {r: 0.5294118, g: 0.6, b: 0.6117647, a: 1}
+      key1: {r: 0.50980395, g: 0.40000004, b: 0.32156864, a: 1}
+      key2: {r: 0.5921569, g: 0.45882356, b: 0.3529412, a: 0}
+      key3: {r: 0.77647066, g: 0.6117647, b: 0.45882356, a: 0}
+      key4: {r: 0.5176471, g: 0.6784314, b: 0.35686275, a: 0}
+      key5: {r: 0.4666667, g: 0.58431375, b: 0.32156864, a: 0}
+      key6: {r: 0.4666667, g: 0.58431375, b: 0.32156864, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 2891
+      ctime1: 17155
+      ctime2: 29876
+      ctime3: 44525
+      ctime4: 57247
+      ctime5: 65535
+      ctime6: 65535
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 6
+      m_NumAlphaKeys: 2
+    m_ColorMin: {r: 0, g: 0, b: 0, a: 0}
+    m_ColorMax: {r: 0, g: 0, b: 0, a: 0}
+  blockBlastResistance: 1
+  isAir: 0
+  side: 0
+  Up: {fileID: 2800000, guid: f48e9fd2a08ea444f9c323e716b75eda, type: 3}
+  Down: {fileID: 2800000, guid: 3a5765de0467c76448e94db27be94ff2, type: 3}
+  Side: {fileID: 2800000, guid: 13a072724e44dea49ada2c43f78eaeee, type: 3}
+  Up_N: {fileID: 2800000, guid: b449faa424ff14b4db2a224219b88a98, type: 3}
+  Down_N: {fileID: 2800000, guid: aa33e954c77cc4746afcae17054e1229, type: 3}
+  Side_N: {fileID: 2800000, guid: 5d85ee6797fd1094ba25ce8c6aa4c815, type: 3}
+  Up_M: {fileID: 2800000, guid: 857835698beeb6a4eb350e954bdc2560, type: 3}
+  Down_M: {fileID: 2800000, guid: a1c30c59b2e16d14c8d1ec8322097255, type: 3}
+  Side_M: {fileID: 2800000, guid: df48dd995ae76ef439bda4d1b8339270, type: 3}
+  go: {fileID: 0}

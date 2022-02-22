@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83fe508ea52d0784aa0e6fde2c7fbb40, type: 3}
+  m_Name: Gravel
+  m_EditorClassIdentifier: 
+  blockName: 12
+  siTrunk: 0
+  isLeave: 0
+  mesh: {fileID: 0}
+  atlasPositions:
+  - {x: 1, y: 2}
+  isTree: 0
+  isTransparent: 0
+  isPlant: 0
+  isBillboard: 0
+  affectedByGravity: 1
+  isSourceBlock: 0
+  isWater: 0
+  mustBeOnGrassBlock: 0
+  digClip: {fileID: 8300000, guid: 88c884ea73e0649cc9103d78bba2b356, type: 3}
+  stepClips: []
+  breakParticleColors:
+    m_Mode: 4
+    m_GradientMin:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    m_GradientMax:
+      serializedVersion: 2
+      key0: {r: 0.62352943, g: 0.5686275, b: 0.56078434, a: 1}
+      key1: {r: 0.5803922, g: 0.52156866, b: 0.53333336, a: 1}
+      key2: {r: 0.61960787, g: 0.54901963, b: 0.5254902, a: 0}
+      key3: {r: 0.5647059, g: 0.5137255, b: 0.5058824, a: 0}
+      key4: {r: 0.33333334, g: 0.32156864, b: 0.30588236, a: 0}
+      key5: {r: 0.38431376, g: 0.3529412, b: 0.34509805, a: 0}
+      key6: {r: 0.57254905, g: 0.5647059, b: 0.5882353, a: 0}
+      key7: {r: 0.69411767, g: 0.6862745, b: 0.6901961, a: 0}
+      ctime0: 8096
+      ctime1: 17348
+      ctime2: 25443
+      ctime3: 33924
+      ctime4: 42791
+      ctime5: 52428
+      ctime6: 59174
+      ctime7: 65535
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 8
+      m_NumAlphaKeys: 2
+    m_ColorMin: {r: 0, g: 0, b: 0, a: 0}
+    m_ColorMax: {r: 0, g: 0, b: 0, a: 0}
+  blockBlastResistance: 1
+  isAir: 0
+  side: 0
+  Up: {fileID: 2800000, guid: d0a90422a8fffa842913ae11d2addaa8, type: 3}
+  Down: {fileID: 2800000, guid: d0a90422a8fffa842913ae11d2addaa8, type: 3}
+  Side: {fileID: 2800000, guid: d0a90422a8fffa842913ae11d2addaa8, type: 3}
+  Up_N: {fileID: 2800000, guid: 6313addd84a12d94f8dfc69dc8b611c8, type: 3}
+  Down_N: {fileID: 2800000, guid: 6313addd84a12d94f8dfc69dc8b611c8, type: 3}
+  Side_N: {fileID: 2800000, guid: 6313addd84a12d94f8dfc69dc8b611c8, type: 3}
+  Up_M: {fileID: 2800000, guid: 05d9b4bcb72a5344ba216f753c2305d5, type: 3}
+  Down_M: {fileID: 2800000, guid: 05d9b4bcb72a5344ba216f753c2305d5, type: 3}
+  Side_M: {fileID: 2800000, guid: 05d9b4bcb72a5344ba216f753c2305d5, type: 3}
+  go: {fileID: 0}

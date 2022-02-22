@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83fe508ea52d0784aa0e6fde2c7fbb40, type: 3}
+  m_Name: Iron Ore
+  m_EditorClassIdentifier: 
+  blockName: 13
+  siTrunk: 0
+  isLeave: 0
+  mesh: {fileID: 0}
+  atlasPositions:
+  - {x: 2, y: 0}
+  isTree: 0
+  isTransparent: 0
+  isPlant: 0
+  isBillboard: 0
+  affectedByGravity: 0
+  isSourceBlock: 0
+  isWater: 0
+  mustBeOnGrassBlock: 0
+  digClip: {fileID: 8300000, guid: 1673b13581a174916be82f64e68d7944, type: 3}
+  stepClips:
+  - {fileID: 8300000, guid: e6c88b998612c4cd0bf5db5b15e5187d, type: 3}
+  breakParticleColors:
+    m_Mode: 4
+    m_GradientMin:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    m_GradientMax:
+      serializedVersion: 2
+      key0: {r: 0.40784317, g: 0.40784317, b: 0.40784317, a: 1}
+      key1: {r: 0.454902, g: 0.454902, b: 0.454902, a: 1}
+      key2: {r: 0.5568628, g: 0.5568628, b: 0.5568628, a: 0}
+      key3: {r: 0.8235295, g: 0.6901961, b: 0.5921569, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 15613
+      ctime1: 31804
+      ctime2: 48573
+      ctime3: 65535
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 4
+      m_NumAlphaKeys: 2
+    m_ColorMin: {r: 0, g: 0, b: 0, a: 0}
+    m_ColorMax: {r: 0, g: 0, b: 0, a: 0}
+  blockBlastResistance: 4
+  isAir: 0
+  side: 0
+  Up: {fileID: 2800000, guid: e091fb40890bdae47bd1e808397f0662, type: 3}
+  Down: {fileID: 2800000, guid: e091fb40890bdae47bd1e808397f0662, type: 3}
+  Side: {fileID: 2800000, guid: e091fb40890bdae47bd1e808397f0662, type: 3}
+  Up_N: {fileID: 2800000, guid: 6829018f91ac00448964d4cccea04776, type: 3}
+  Down_N: {fileID: 2800000, guid: 6829018f91ac00448964d4cccea04776, type: 3}
+  Side_N: {fileID: 2800000, guid: 6829018f91ac00448964d4cccea04776, type: 3}
+  Up_M: {fileID: 2800000, guid: d6152500cd31e5c4681fa4a1a131c07a, type: 3}
+  Down_M: {fileID: 2800000, guid: d6152500cd31e5c4681fa4a1a131c07a, type: 3}
+  Side_M: {fileID: 2800000, guid: d6152500cd31e5c4681fa4a1a131c07a, type: 3}
+  go: {fileID: 0}

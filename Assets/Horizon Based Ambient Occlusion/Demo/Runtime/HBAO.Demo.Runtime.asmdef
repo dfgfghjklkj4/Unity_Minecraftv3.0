@@ -1,0 +1,17 @@
+{
+    "name": "HBAO.Demo.Runtime",
+    "references": [
+        "GUID:b83dc51897666cb44bdfbf9671f74e85"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_2019_1_OR_NEWER"
+    ],
+    "versionDefines": []
+}

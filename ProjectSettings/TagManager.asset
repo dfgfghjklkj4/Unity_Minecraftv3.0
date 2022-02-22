@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Foliage
+  - Water
+  - TNT
+  - OpaqueMesh
+  - CinemachineTarget
+  - ReflectionStatic
+  - Tree
+  - TreeSingle
+  - luaCube
+  - ClingPoint
+  - Sliceable
+  - Coins
+  - BrickBlock
+  - ground
+  - LEVEL1
+  - CourseClearText
+  - LEVEL2
+  - Fireflower
+  - SceneManager
+  - Question
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Foliage
+  - 
+  - TNT
+  - Player
+  - OpaqueMesh
+  - Tree
+  - DestroyItDebris
+  - Solid
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
